@@ -914,7 +914,7 @@ body {
           animation: flower__g-fr-leaft-ans-7 0.5s 4s linear backwards;
 }
 .blockquote{
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 300;
   color: #fff;
   text-align: center;
@@ -922,7 +922,7 @@ body {
   position: absolute;
   z-index: 100;
   top: 20px;
-  width: 100%;
+  width: 70%;
 }
 @-webkit-keyframes flower__g-fr-leaft-ans-7 {
   0% {
@@ -1330,3 +1330,11 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+.blockquote-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
