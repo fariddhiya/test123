@@ -913,6 +913,14 @@ body {
   -webkit-animation: flower__g-fr-leaft-ans-7 0.5s 4s linear backwards;
           animation: flower__g-fr-leaft-ans-7 0.5s 4s linear backwards;
 }
+.blockquote{
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  z-index: 100;
+}
 @-webkit-keyframes flower__g-fr-leaft-ans-7 {
   0% {
     transform-origin: left;
